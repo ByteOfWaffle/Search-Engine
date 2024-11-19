@@ -1,2 +1,4 @@
 # Search Engine
- Search engine made with python
+ Search engine for TXT files, made with python
+ 
+To use simply 
