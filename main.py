@@ -1,4 +1,3 @@
-
 def searchline():
     r = open("test.txt")
     search = input("Enter a word to search for: ")
@@ -13,7 +12,7 @@ def searchline():
     
     # Print results
     if found_lines:
-        print(f"The word {search} was found in {len(found_lines)} lines:")
+        print(f"The word {search} was found in {len(found_lines)} lines:") #Uses len to determine number of items.
         for line in found_lines:
             print(line)
         foundline = True
@@ -45,9 +44,13 @@ def searchword():
         print(f"The word '{search}' was not found.")
         foundword = False
             
-wordorline = input("Do you want to search for a line or a word? Write 1 for line and 2 for word ")
-if wordorline == "1": 
-    searchline()
-else:
-    searchword()
+            
+            
+def choice():
+    wordorline = input("Do you want to search for a line or a word? Write 1 for line and 2 for word ")
+    if wordorline == "1": 
+        searchline()
+    else:
+        searchword()
     
+choice()
