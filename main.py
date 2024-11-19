@@ -18,9 +18,12 @@ def searchline():
             strippedline = line.strip() #Using strip() to remove whitespace. (the extra roonm)
             print(strippedline) #Prints found lines
         foundline = True
+        return foundline
+    
     else:
         print(f"The word {search} was not found in any lines.")
         foundline = False
+        return foundline
         
 
 def searchword():
