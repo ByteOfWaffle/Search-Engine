@@ -99,23 +99,10 @@ The tool includes basic error handling for:
 - Requires exact file name input (without .txt extension)
 - Loads entire file into memory
 
-## Contributing
 
-Feel free to contribute to this project by:
-1. Forking the repository
-2. Creating a feature branch
-3. Committing your changes
-4. Pushing to the branch
-5. Creating a new Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Author
 
 ByteOfWaffle
 
-## Version
 
-1.0.0
