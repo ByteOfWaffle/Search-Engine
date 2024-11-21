@@ -11,7 +11,7 @@ A simple Python utility that allows users to search through text files for speci
 
 ## Requirements
 
-- Python 3.x
+- Python 3.13
 - Text files to search through (.txt format)
 
 ## Installation
