@@ -18,7 +18,7 @@ A simple Python utility that allows users to search through text files for speci
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/text-file-search-tool.git
+git clone [https://github.com/yourusername/text-file-search-tool.git](https://github.com/ByteOfWaffle/Search-Engine?tab=readme-ov-file#text-file-search-tool)
 cd text-file-search-tool
 ```
 
