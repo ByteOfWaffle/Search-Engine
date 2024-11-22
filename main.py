@@ -1,6 +1,6 @@
 import os
 def searchline():
-    chosenfile = input("What file do you want to search in? (must be txt) ") #Choose a file to search in.
+    chosenfile = input("What file do you want to search in? (must be txt): ") #Choose a file to search in.
     r = open(chosenfile + ".txt")
     search = input("Enter a word to search for: ")
     
