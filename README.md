@@ -96,8 +96,7 @@ The tool includes basic error handling for:
 ## Limitations
 
 - Only works with .txt files
-- Requires exact file name input (without .txt extension)
-- Loads entire file into memory
+- Requires exact file name input (without without file format in the name)
 
 
 
