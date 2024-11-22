@@ -52,7 +52,7 @@ def choice(): #Choose if you want to search for a line or a word.
     print("|1.   Search for a line  |")
     print("|2.   Search for a word  |")
     print(" ————————————————————————")
-    wordorline = input("Do you want to search for a line or a word?")
+    wordorline = input("Do you want to search for a line or a word? ")
     
     if wordorline == "1": 
         resultline = searchline()
