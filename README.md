@@ -13,6 +13,7 @@ A simple Python utility that allows users to search through text files for speci
 
 - Python 3.13
 - Text files to search through (.txt format)
+  
 ⚠️⚠️⚠️txt file must be in the same file directory as the python script⚠️⚠️⚠️
 
 
