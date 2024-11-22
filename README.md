@@ -1,6 +1,6 @@
 # Text File Search Tool
 
-A simple Python utility that allows users to search through text files for specific words or lines. The tool provides two main functionalities: searching for complete lines containing a word and searching for exact word matches.
+A simple Python program that allows users to search through text files for specific words or lines. The tool provides two main functionalities: searching for complete lines containing a word and searching for exact word matches and the amount found.
 
 ## Features
 
