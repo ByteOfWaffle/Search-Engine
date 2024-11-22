@@ -14,15 +14,6 @@ A simple Python utility that allows users to search through text files for speci
 - Python 3.13
 - Text files to search through (.txt format)
 
-## Installation
-
-1. Clone this repository:
-```bash
-git clone https://github.com/ByteOfWaffle/Search-Engine
-cd Search-Engine
-```
-
-2. No additional dependencies are required as the tool uses only Python standard library.
 
 ## Usage
 
@@ -44,48 +35,37 @@ python main.py
 - Returns the entire line where the word is found
 - Shows the total number of lines containing the word
 - Case-insensitive search
+- Shows the total count of words found
 
 #### Word Search
 - Searches for exact word matches
 - Returns all instances of the exact word
-- Shows the total count of word occurrences
+- Shows the total count of words
 - Case-insensitive search
 
 ### Example Usage
 
 ```python
 # Example for line search
-Enter a file to search in: sample
-Enter a word to search for: hello
-The word hello was found in 2 lines:
-Hello world, this is a test
-Hello there, how are you?
+What file do you want to search in? (must be txt) test
+Enter a word to search for: pepe
+ ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+The word was found in 2 lines
+Line: pepe was a war hero (Line 4)
+Line: pepe popo kokoko doko was coco (Line 8)
+ ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 # Example for word search
-Enter a file to search in: sample
-Enter a word to search for: hello
-The word hello was found 3 times:
-['Hello', 'Hello', 'hello']
+What file do you want to search in? (must be txt): test
+Enter a word to search for: pepe
+ ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+The word was found 2 times
+Word: pepe (Line 4)
+Word: pepe (Line 8)
+ ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 ```
 
-## Function Documentation
 
-### `searchline()`
-- Prompts for a file name and search term
-- Searches for lines containing the specified word
-- Returns the matched lines with whitespace stripped
-- Case-insensitive search
-
-### `searchword()`
-- Prompts for a file name and search term
-- Searches for exact word matches
-- Returns a list of matched words
-- Case-insensitive search
-
-### `choice()`
-- Displays the main menu
-- Handles user input for search mode selection
-- Calls appropriate search function based on user choice
 
 ## Error Handling
 
@@ -102,6 +82,6 @@ The tool includes basic error handling for:
 
 ## Author
 
-ByteOfWaffle
+ByteOfWaffle (Jeremy)
 
 
