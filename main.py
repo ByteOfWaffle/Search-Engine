@@ -63,7 +63,8 @@ def choice(): #Choose if you want to search for a line or a word.
     if wordorline == "1": 
         resultline = searchline()
         print(" ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————")
-        for word, location in resultline: 
+        print(f"The word was found in {len(resultline)} lines") #Tells if the word was found in a lineand how many times it was found. uses "len" to determine number of items.
+        for word, location in resultline:
             print(f"Line: {word} (Line {location})") #Loops through each found word and its location from the results, addong them as word and location variables.
         print(" ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————")
         input("Press enter to continue...")
