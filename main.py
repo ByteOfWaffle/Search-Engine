@@ -44,7 +44,7 @@ def searchword():
     # Print results
     if found_words:
         os.system("cls") #Clears screen
-        print(f"The word {search} was found {len(found_words)} times:") #Tells if the word was found and how many times it was found. uses "len" to determine number of items.
+        
         return found_words
     else:
         print(f"The word '{search}' was not found.")
@@ -72,6 +72,7 @@ def choice(): #Choose if you want to search for a line or a word.
     else:
         result = searchword()
         print(" ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————")
+        print(f"The word was found {len(result)} times") #Tells if the word was found and how many times it was found. uses "len" to determine number of items.
         for word, location in result: 
             print(f"Word: {word} (Line {location})") #Loops through each found word and its location from the results, addong them as word and location variables.
         print(" ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————")
