@@ -17,13 +17,17 @@ def searchline():
         for line in found_lines:  # Loop through all found lines
             return found_lines  #returns line
     else:
+        os.system("cls") #Clears screen
         print(f"The word {search} was not found in any lines.")
+        input("Press enter to return to menu...")
+        os.system("cls") #Clears screen
+        choice()
         
         
 
 def searchword():
     found_words = []  # List to store found words
-    chosenfile = input("What file do you want to search in? (must be txt) ") #Choose a file to search in.
+    chosenfile = input("What file do you want to search in? (must be txt): ") #Choose a file to search in.
     r = open(chosenfile + ".txt")
     search = input("Enter a word to search for: ")
     
